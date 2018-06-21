@@ -1,0 +1,55 @@
+.form {
+    background: #44b7d4;
+    padding: 20px;
+    border-radius: 3px; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    
+}
+
+form p span {
+    color: red;
+}
+
+label span {
+    color: red;
+}
+
+.submit-box {
+    display: flex;
+    justify-content: space-between;
+}
+form p {
+    /* margin: 0; */
+    text-decoration: underline;
+    /* vertical-align: bottom; */
+}
+
+form p:hover {
+    cursor: pointer;
+}
+#submit {
+    margin-top: 10px;
+    display: inline-block;
+    height: 30px;
+    border: none;
+    border-radius: 1.5px;
+    color: white;
+    font-weight: bold;
+    background: #663053; 
+    cursor: pointer;  
+}
